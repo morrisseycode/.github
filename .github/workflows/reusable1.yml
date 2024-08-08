@@ -7,6 +7,6 @@ jobs:
   reusable-deployment-job:
     runs-on: windows-latest
 
-  steps:
+    steps:
     
-    - run: echo 'This is a reusable workflow stored in the .github repo'
+      - run: echo 'This is a reusable workflow stored in the .github repo'
