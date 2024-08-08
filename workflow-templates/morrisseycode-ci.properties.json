@@ -1,0 +1,14 @@
+{
+    "name": "MorrisseyCode Organization Workflow",
+    "description": "MorrisseyCode CI starter workflow.",
+    "iconName": "octicon organization-24",
+    "categories": [
+        "continuous integration",
+        "deployment"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
