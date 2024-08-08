@@ -2,5 +2,5 @@
     "name": "MorrisseyCode New Workflow",
     "description": "MorrisseyCode CI starter workflow.",
     "iconName": "octicon organization",
-    "categories": ["deployment", "Deployment"]
+    "categories": ["Deployment"]
 }
