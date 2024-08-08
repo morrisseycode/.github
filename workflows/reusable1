@@ -1,0 +1,12 @@
+name: Reusable deployment step
+
+on:
+  workflow_call:
+        
+jobs:
+  reusable-deployment-job:
+    runs-on: windows-latest
+
+  steps:
+    
+    - run: echo 'This is a reusable workflow stored in the .github repo'
