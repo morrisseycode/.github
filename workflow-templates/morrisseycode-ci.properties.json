@@ -3,7 +3,6 @@
     "description": "MorrisseyCode CI starter workflow.",
     "iconName": "octicon organization",
     "categories": [
-        "continuous integration",
         "deployment"
     ],
     "filePatterns": [
