@@ -9,4 +9,4 @@ jobs:
 
     steps:
     
-      - run: echo 'This is a reusable workflow stored in the .github repo'
+      - run: echo 'This is the secret' ${{ secrets.AZUREAPPSERVICE_CLIENTID_0431404336224C2AA26CEDDB755B239D }}
