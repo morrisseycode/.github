@@ -2,9 +2,7 @@
     "name": "MorrisseyCode Organization Workflow",
     "description": "MorrisseyCode CI starter workflow.",
     "iconName": "octicon organization",
-    "categories": [
-        "deployment"
-    ],
+    "categories": ["deployment", "AspNetCore"],
     "filePatterns": [
         "package.json$",
         "^Dockerfile",
