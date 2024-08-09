@@ -5,11 +5,6 @@ on:
     branches: [ $default-branch ]
   pull_request:
     branches: [ $default-branch ]
-
-env:
-  package-name: .net-app
-  app-name: AZURE-APP-SVC-NAME
-  deployment-slot: development
       
 jobs:
   build-job:
@@ -43,7 +38,7 @@ jobs:
 
     uses: morrisseycode/test3/.github/workflows/reusable-deploy-shared-repo.yml@main
     with:
-      package-name: ${{ env.package-name }}
-      app-name: ${{ env.app-name }}
-      deployment-slot: ${{ env.deployment-slot }}
+      package-name: .net-app
+      app-name: APPSVC_NAME
+      deployment-slot: development
     secrets: inherit
