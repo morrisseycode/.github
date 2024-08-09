@@ -11,7 +11,7 @@ jobs:
     runs-on: windows-latest
     env:
       package-name: .net-app
-      app-name: # app name in Azure App Service
+      app-name: AZURE-APP-SVC-NAME
       deployment-slot: development
       
     steps:
